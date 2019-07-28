@@ -4,9 +4,16 @@ import "../styles/roomcard.scss";
 
 export default class RoomCard extends Component {
   render() {
-    const { title, quickDetails, photo, shortDescription, rate } = this.props;
+    const {
+      id,
+      title,
+      quickDetails,
+      photo,
+      shortDescription,
+      rate
+    } = this.props;
     return (
-      <div className="card">
+      <div className="card" key={id}>
         <img
           className="card-img-top"
           height="250"
@@ -21,7 +28,7 @@ export default class RoomCard extends Component {
           <p className="card-text">{shortDescription}</p>
           <p className="card-text">{rate}</p>
 
-          <Link to="/rooms/details" className="btn">
+          <Link to={`/rooms/details/${title}`} className="btn">
             More Details
           </Link>
         </div>

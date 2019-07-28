@@ -3,17 +3,15 @@ import Hero from "./Hero";
 
 export default class RoomDetails extends Component {
   render() {
-    const { availableRooms } = this.props;
+    const { id, title, quickDetails, fullDescription, rate } = this.props;
 
     return (
       <>
-        <div>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Reprehenderit deleniti architecto quas pariatur recusandae
-            voluptatem at corporis est similique quae dolorem, veritatis dicta
-            perferendis error aspernatur suscipit ipsum. At, doloremque?
-          </p>
+        <div key={id}>
+          <h3>{title}</h3>
+          <p>{quickDetails}</p>
+          <p>{fullDescription}</p>
+          <p>{rate}</p>
         </div>
       </>
     );

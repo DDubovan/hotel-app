@@ -8,7 +8,7 @@ export default class HotelRooms extends Component {
     background: "#074C12"
   };
   render() {
-    const { availableRooms } = this.props;
+    // const { availableRooms } = this.props;
 
     return (
       <>
