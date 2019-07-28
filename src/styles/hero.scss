@@ -1,0 +1,29 @@
+.mainHero,
+.roomsHero,
+.attractionsHero {
+  height: 15rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/photos/dark-leaves.jpg");
+  background-size: 80rem 80rem;
+}
+
+.roomDetailsHero {
+  background-image: url("../assets/photos/palm-beach.jpg");
+  background-size: 80rem 70rem;
+}
+
+.attractionsHero {
+  background-image: url("../assets/photos/palm-trees.jpg");
+  background-size: 80rem 70rem;
+}
+
+.mainHeroContent {
+  text-align: center;
+  margin: 0;
+  width: 35rem;
+  color: gold;
+}

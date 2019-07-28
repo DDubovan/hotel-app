@@ -1,0 +1,21 @@
+.attractionList {
+  display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+
+  .attractionsItem {
+    width: 80vw;
+    display: grid;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid gold;
+    color: darkgreen;
+    // background-image: url("../assets/photos/one-leaf.jpg");
+    // background-size: 300px 300px;
+
+    h5 {
+      text-decoration: underline;
+    }
+  }
+}

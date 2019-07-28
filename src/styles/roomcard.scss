@@ -1,0 +1,32 @@
+.card {
+  width: 400px;
+  //   height: 550px;
+  margin: 5px;
+  border: 2px solid darkslategray;
+}
+
+.card-body {
+  //   background: url("../assets/photos/leaves.jpg") no-repeat center;
+  //   background-size: 700px 600px;
+  background: radial-gradient(white, #053717);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  text-decoration: underline;
+}
+
+.card-text {
+  list-style-type: none;
+  width: 250px;
+  text-align: center;
+  //   color: lightcoral;
+  //   background: rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+  background: darkslategray;
+  color: #ffffff;
+}
